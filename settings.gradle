@@ -1,0 +1,2 @@
+rootProject.name='LopezHansel_Lab3_AppsMobiles'
+include ':app'
