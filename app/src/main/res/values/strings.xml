@@ -5,5 +5,9 @@
     <string name="edad">Edad:</string>
     <string name="nombre">Nombre</string>
     <string name="edad_field">Edad</string>
-    <string name="click_en_la_estrella">Click en la estrella para informacion!</string>
+    <string name="click_en_la_estrella">Click en la estrella para informacion sobre tu riesgo personal!</string>
+    <string name="texto">texto</string>
+    <string name="virus">Virus</string>
+    <string name="indicaciones">Indicaciones</string>
+    <string name="sintomas">Sintomas</string>
 </resources>
