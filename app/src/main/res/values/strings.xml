@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Covid-19</string>
     <string name="todo">TODO</string>
+    <string name="name">Nombre: </string>
+    <string name="edad">Edad:</string>
+    <string name="nombre">Nombre</string>
+    <string name="edad_field">Edad</string>
+    <string name="click_en_la_estrella">Click en la estrella para informacion!</string>
 </resources>
