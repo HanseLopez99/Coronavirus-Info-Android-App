@@ -10,4 +10,7 @@
     <string name="virus">Virus</string>
     <string name="indicaciones">Indicaciones</string>
     <string name="sintomas">Sintomas</string>
+    <string name="c19">Covid/19</string>
+    <string name="comentar">Comentar</string>
+    <string name="comenta_aqui">Comenta aqui</string>
 </resources>

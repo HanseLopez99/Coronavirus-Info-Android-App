@@ -1,6 +1,7 @@
 package com.example.lopezhansel_lab3_appsmobiles
 
 import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -18,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         //setContentView(R.layout.activity_main)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
+        var resultado:String
 
         binding.starButton.setOnClickListener{
             if(binding.nameEditText.getText().toString().isEmpty()){
@@ -28,17 +30,23 @@ class MainActivity : AppCompatActivity() {
                 showText(it)
             }
         }
-
         binding.virusButton.setOnClickListener{
-
+            val intent:Intent = Intent(this, SecondActivity::class.java)
+            startActivity(intent)
         }
 
         binding.sintomasButton.setOnClickListener{
-
+            val intent:Intent = Intent(this, SecondActivity::class.java)
+            resultado = "Segun tu peso: "
+            intent.putExtra("texto",resultado)
+            startActivity(intent)
         }
 
         binding.indicacionesButton.setOnClickListener{
-
+            val intent:Intent = Intent(this, SecondActivity::class.java)
+            resultado = "Segun tu peso: "
+            intent.putExtra("texto",resultado)
+            startActivity(intent)
         }
     }
 
